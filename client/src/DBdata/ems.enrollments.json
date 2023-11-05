@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "65472cacc319db9f94dcfb5f"
+  },
+  "courseId": 2,
+  "studentId": {
+    "$oid": "65472768c319db9f94dcf9d5"
+  },
+  "status": true,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "654735efc319db9f94dcfd48"
+  },
+  "courseId": 3,
+  "studentId": {
+    "$oid": "65472768c319db9f94dcf9d5"
+  },
+  "status": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6547363bc319db9f94dcfd81"
+  },
+  "courseId": 4,
+  "studentId": {
+    "$oid": "65472768c319db9f94dcf9d5"
+  },
+  "status": false,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "654736e0c319db9f94dcfe07"
+  },
+  "courseId": 9,
+  "studentId": {
+    "$oid": "65472768c319db9f94dcf9d5"
+  },
+  "status": true,
+  "__v": 0
+}]

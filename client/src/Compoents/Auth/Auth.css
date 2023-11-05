@@ -1,0 +1,95 @@
+.model {
+    height: 80vh;
+    width: 60vw;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+
+.App {
+    text-align: center;
+}
+
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.right_model {
+    background-image: url(../images/modal_bg.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    object-fit: cover;
+
+}
+
+
+.text-model {
+    color: #fff;
+    text-align: center;
+    margin: 20px;
+    font-size: 34px;
+    line-height: 1.33;
+    align-self: flex-end;
+}
+
+.Left_model {
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    /* position: relative; */
+    place-content: center;
+
+}
+
+.field {
+    margin: 20px 20px;
+    /* position: absolute; */
+    place-content: center;
+
+}
+
+input {
+    padding: 15px 20px;
+    /* margin: 10px; */
+    width: 15vw;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #f1e2e2;
+}
+
+.btn {
+    padding: 15px 50px;
+    width: 17.7vw;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #196ae5;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #094fb8;
+        border-radius: 20px;
+    }
+}
+
+@media (max-width: 1197px) {
+    .right_model {
+      display: none;
+    }
+    .Left_model {
+      width: 100%; /* Make the second grid full width on mobile */
+    }
+  }

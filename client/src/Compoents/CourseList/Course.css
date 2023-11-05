@@ -1,0 +1,133 @@
+.content {
+  margin: 30px;
+}
+
+.detail {
+  margin: 30px;
+  place-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.Content_detail {
+
+  text-align: justify;
+  font-size: 18px;
+}
+
+.Enrolbtn {
+  margin: 15px;
+  padding: 15px 20px;
+  background-color: rgb(116, 116, 214);
+  color: #fff;
+  border: none;
+  border-radius: 9px;
+  font-size: 16px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgb(66, 66, 215);
+  }
+}
+
+.pagination {
+  float: right;
+  margin: 10px;
+}
+
+.pagination button {
+  padding: 10px;
+  margin: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  color: white;
+  background-color: rgb(92, 92, 246);
+
+  &:hover {
+    background-color: blue;
+
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header input[type="text"] {
+  width: 50%;
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.header select {
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.header .searchbtn {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  background-color: #1a90ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header select {
+  background-position: 95% 50%;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+   
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .header input[type="text"] {
+    width: 100%;
+    margin-right: 0px !important;
+    margin: 0px;
+   
+   
+  }
+  .header select {
+   align-items: center;
+  }
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+}
+@media screen and (max-width:950px){
+  .card{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  
+}

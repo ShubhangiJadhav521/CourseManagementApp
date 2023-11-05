@@ -1,0 +1,43 @@
+.content {
+    margin: 30px;
+}
+
+.logoutbtn {
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+
+.btnmark {
+    border: none;
+    background-color: #d1bcbc;
+    cursor: pointer;
+    padding: 10px 10px;
+}
+
+.logo {
+    border-radius: 50%;
+    margin: 0 10px;
+}
+@media screen and (max-width: 480px) {
+    .card{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    
+  }
+  @media screen and (max-width:950px){
+    .card{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+    
+  }
